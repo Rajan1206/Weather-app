@@ -1,10 +1,7 @@
-## Weather app
+# Weather app
 
 An application to see 5 day weather forecast which fetches data from OpenWeatherMap api and built with React, JavaScript, and CSS.
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Installation and Setup Instructions
 
