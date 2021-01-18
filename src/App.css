@@ -1,0 +1,125 @@
+.app {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  position: relative;
+  border: 1px solid gray;
+  border-radius: 0.2cm;
+  background-color: #fffdd0;
+  width: 500px;
+  height: 100px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 90px;
+}
+
+.Main {
+  justify-content: left;
+  align-items: left;
+  position: relative;
+  width: 900px;
+  height: 450px;
+  margin-top: 20px;
+  margin-left: 200px;
+  border-radius: 1cm;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.search-button {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-left: 0px;
+}
+
+.weather-details {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+.location {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.day-card {
+  display: flex;
+}
+
+.card {
+  background-color: bisque;
+  position: relative;
+  margin: 20px;
+}
+
+.city-details {
+  text-align: center;
+  width: 150px;
+  height: 30px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  padding-top: -15px;
+}
+
+.showchart {
+  position: relative;
+  margin-left: 100px;
+}
+
+.home-button {
+  border: 1px solid grey;
+  border-radius: 5px;
+  position: relative;
+  margin-left: 40px;
+}
+
+.detailed-view {
+  padding-top: 20px;
+  height: 400px;
+  width: 1100px;
+}
+
+.detailed-view {
+  display: flex;
+}
+
+.detail {
+  font-size: 20px;
+  border: 1px solid grey;
+  background-color: bisque;
+  border-radius: 5px;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  vertical-align: auto;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
